@@ -2,6 +2,7 @@
   min-height: 300px;
 }
 .company-content {
+  min-height: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -197,6 +198,7 @@
 
 
 @media (max-width: 320px) {
+
   .company-block {
     position: relative;
   }
@@ -262,5 +264,8 @@
   }
   .hidden {
     display: none;
+  }
+  .company-content {
+    min-height: 200px;
   }
 }

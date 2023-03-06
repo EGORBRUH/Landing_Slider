@@ -1,9 +1,10 @@
 .question {
   position: relative;
-  min-height: 526px;
+  min-height: 621px;
 }
 
 .question-content {
+  min-height: 564px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,8 +69,12 @@
 }
 
 .question-btn {
-  width: 218px;
-  margin: 0 auto;
+  max-width: 218px;
+  align-self: center;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 20px;
   text-align: center;
@@ -184,6 +189,9 @@ input[placeholder] {
 
   }
   @media (max-width: 320px) {
+    .question-content {
+      min-height: auto;
+    }
     .question {
       min-height: 398px;
     }
