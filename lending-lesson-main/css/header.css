@@ -1,0 +1,147 @@
+.header {
+  width: 100%;
+  position: relative;
+  margin-bottom: 124px;
+}
+
+.background-header {
+  background-image: url(../image/bg.png);
+  width: 100%;
+  min-height: 732px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position:center center;
+
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background-header:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  display: block;
+  min-height: 732px;
+  z-index: 1;
+  background: rgba(47, 50, 75, 0.85);;
+}
+.header-nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  z-index: 1;
+}
+
+
+.header-social_group {
+
+  z-index: 2;
+
+
+}
+.header-logo {
+  z-index: 2;
+
+}
+.header-link {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.85px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.header-text {
+  color: #FFFFFF;
+  width: 135px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+
+}
+
+
+
+
+
+
+@media (max-width:1024px) {
+
+}
+@media (max-width : 768px) {
+
+}
+
+@media(max-width : 533px) {
+
+}
+
+@media(max-width : 360px) {
+
+}
+
+@media (max-width:320px) {
+  .header {
+    margin-bottom: 30px;
+  }
+  .background-header {
+    background-position: center center;
+    min-height: 532px;
+    position: absolute;
+  }
+  .background-header:after {
+    min-height: 532px;
+    position: absolute;
+  }
+  .container  {
+    padding: 0 15px;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  .header-link {
+    color: transparent;
+    background-image: url(../image/phone-2.svg);
+    display: block;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .header-text {
+    color: transparent;
+    border: none;
+  }
+  .header-logo {
+    width: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

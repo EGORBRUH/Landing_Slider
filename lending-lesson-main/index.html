@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preload" href="fonts/roboto-v30-cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/roboto-v30-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/roboto-v30-cyrillic-700.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/roboto-v30-cyrillic-900.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="stylesheet" href="css/index.css">
+  <script defer src="js/index.js"></script>
+  <title>Lesson5</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <nav class="header-nav">
+          <div class="background-header"></div>
+          <img class="header-logo" src="image/logo.svg" alt="logo">
+          <div class="header-social header-social_group">
+            <a class="header-link" href="tel:79625561234">+7 (962) 556 - 1234</a>
+            <p  class="header-text">Перезвоните мне</p>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+        <p class="hero-text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру,
+          верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+        <a class="hero-btn" href="" type="button">Подробнее</a>
+      </div>
+    </div>
+  </section>
+  <section class="company">
+    <div class="container">
+      <div class="company-content">
+        <h2 class="company-title">Уникальный заголовок для преимущества компании</h2>
+        <p class="company-about">О нас</p>
+        <p class="company-text company-text_about">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+      </div>
+      <div class="company-block">
+        <svg class="left-arrow" id="btnPrev" width="38" height="38" viewBox="0 0 83 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="34.0657" cy="40" rx="19.0657" ry="19" fill="white"/>
+          <path d="M29.3441 39.2929C28.9536 39.6834 28.9536 40.3166 29.3441 40.7071L35.7081 47.0711C36.0986 47.4616 36.7318 47.4616 37.1223 47.0711C37.5128 46.6806 37.5128 46.0474 37.1223 45.6569L31.4654 40L37.1223 34.3432C37.5128 33.9526 37.5128 33.3195 37.1223 32.9289C36.7318 32.5384 36.0986 32.5384 35.7081 32.9289L29.3441 39.2929ZM31.0547 39L30.0512 39L30.0512 41L31.0547 41L31.0547 39Z" fill="#434343"/>
+        </svg>
+        <div class="company-row">
+          <ul class="company-list" id="slider">
+            <li class="company-item-1">
+              <p class="company-item-text">Первое целевое преимущество</p>
+            </li>
+            <li class="company-item-2">
+              <p class="company-item-text">Второе целевое преимущество</p>
+            </li>
+            <li class="company-item-3">
+              <p class="company-item-text">Третье целевое преимущество</p>
+            </li>
+            <li class="company-item-4">
+              <p class="company-item-text">Четвертое целевое преимущество</p>
+            </li>
+          </ul>
+        </div>
+        <svg class="right-arrow" id="btnNext" width="38" height="38" viewBox="0 0 75 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="40.9349" cy="40" rx="19.0657" ry="19" fill="#4B4D62" fill-opacity="0.72"/>
+          <path d="M45.6559 40.7071C46.0464 40.3166 46.0464 39.6834 45.6559 39.2929L39.2919 32.9289C38.9014 32.5384 38.2682 32.5384 37.8777 32.9289C37.4872 33.3194 37.4872 33.9526 37.8777 34.3431L43.5346 40L37.8777 45.6568C37.4872 46.0474 37.4872 46.6805 37.8777 47.0711C38.2682 47.4616 38.9014 47.4616 39.2919 47.0711L45.6559 40.7071ZM43.9453 41L44.9488 41L44.9488 39L43.9453 39L43.9453 41Z" fill="white"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+  <section class="question">
+    <div class="container">
+      <div class="background-question"></div>
+      <div class="question-content">
+        <h2 class="question-title">Остались вопросы?</h2>
+        <p class="question-text">Оставьте номер телефона, и мы перезвоним вам</p>
+        <form class="question-form" action="#">
+          <input class="form-input" type="text" name="name" placeholder="Ваше имя">
+          <input class="form-input" type="tel" name="tel" placeholder="Телефон">
+          <input class="form-input" type="email" name="email" placeholder="E-mail">
+          <button class="question-btn">позвоните мне</button>
+        </form>
+
+          <p class="question-agreement">Я даю своё <a class="question-link" href="#">согласие</a> на обработку моих персональных данных.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+    <section class="footer-social">
+      <div class="container">
+          <div class="footer-group footer-group_one">
+            <img class="footer-logo" src="image/logo.svg" alt="logo">
+            <div class="footer-group">
+               <p class="footer-group footer-group_text_company">
+                 ©2022 XXXcompany.</p>
+               <p class="footer-group footer-group_text">
+                 Все права защищены.</p>
+            </div>
+            <div class="footer-group footer-social_group">
+            <a class=footer-link href="tel:+79625561234">+7 (962) 556 - 1234</a>
+            <p class="footer-text">Перезвоните мне</p>
+          </div>
+          </div>
+      </div>
+      <p class="footer-author">Сделано в Ивановым Иваном</p>
+    </section>
+</footer>
+</body>
+</html>
